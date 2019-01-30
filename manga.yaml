@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/manga/1'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Wed, 30 Jan 2019 08:15:10 GMT'
+            Content-Type: application/json
+            Content-Length: '3511'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"f82110394d595aad4e75be3a57e6562c"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:manga:7d11cea0d3a8ccb734a8b1c7e86970dc6c0f7fd9","request_cached":false,"request_cache_expiry":43200,"mal_id":1,"url":"https:\/\/myanimelist.net\/manga\/1\/Monster","title":"Monster","title_english":"Monster","title_synonyms":[],"title_japanese":"MONSTER","status":"Finished","image_url":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54525.jpg","type":"Manga","volumes":18,"chapters":162,"publishing":false,"published":{"from":"1994-12-05T00:00:00+00:00","to":"2001-12-20T00:00:00+00:00","prop":{"from":{"day":null,"month":null,"year":null},"to":{"day":null,"month":null,"year":null}},"string":"Dec  5, 1994 to Dec  20, 2001"},"rank":4,"score":9.06,"scored_by":31360,"popularity":51,"members":76127,"favorites":7762,"synopsis":"Dr. Kenzou Tenma is a renowned brain surgeon of Japanese descent working in Europe. Highly lauded by his peers as one of the great young minds that will revolutionize the field, he is blessed with a beautiful fianc\u00e9e and is on the cusp of a big promotion in the hospital he works at. But all of that is about to change with a grave dilemma that Kenzou faces one night\u2014whether to save the life of a small boy or that of the town''s mayor. Despite being pressured by his superiors to perform surgery on the mayor, his morals force him to perform the surgery on the other critical patient, saving his life and forfeiting the mayor''s. A doctor is taught to believe that all life is equal; however, when a series of murders occur in the surgeon''s vicinity, all of the evidence pointing to the boy he saved, Kenzou''s beliefs are shaken. Along his journey to unravel the true identity of his little patient, Kenzou discovers that the fate of the world may be intertwined with the mysterious child. [Written by MAL Rewrite]","background":"Monster won the Grand Prize at the 3rd annual Tezuka Osamu Cultural Prize in 1999, as well as the 46th Shogakukan Manga Award in the General category in 2000.\r\nThe series was published in English by VIZ Media under the VIZ Signature imprint from February 21, 2006 to December 16, 2008, and again in 2-in-1 omnibuses (subtitled The Perfect Edition) from July 15, 2014 to July 19, 2016. The manga was also published in Brazilian Portuguese by Panini Comics\/Planet Manga from June 2012 to April 2015, in Polish by Hanami from March 2014 to February 2017, in Spain by Planeta C\u00f3mic from June 16, 2009 to September 21, 2010, and in Argentina by LARP Editores.","related":{"Side story":[{"mal_id":10968,"type":"manga","name":"Mou Hitotsu no Monster: The Investigative Report","url":"https:\/\/myanimelist.net\/manga\/10968\/Mou_Hitotsu_no_Monster__The_Investigative_Report"}],"Adaptation":[{"mal_id":19,"type":"anime","name":"Monster","url":"https:\/\/myanimelist.net\/anime\/19\/Monster"}]},"genres":[{"mal_id":7,"type":"manga","name":"Mystery","url":"https:\/\/myanimelist.net\/manga\/genre\/7\/Mystery"},{"mal_id":8,"type":"manga","name":"Drama","url":"https:\/\/myanimelist.net\/manga\/genre\/8\/Drama"},{"mal_id":40,"type":"manga","name":"Psychological","url":"https:\/\/myanimelist.net\/manga\/genre\/40\/Psychological"},{"mal_id":41,"type":"manga","name":"Seinen","url":"https:\/\/myanimelist.net\/manga\/genre\/41\/Seinen"}],"authors":[{"mal_id":1867,"type":"people","name":"Urasawa, Naoki","url":"https:\/\/myanimelist.net\/people\/1867\/Naoki_Urasawa"}],"serializations":[{"mal_id":1,"type":"manga","name":"Big Comic Original","url":"https:\/\/myanimelist.net\/manga\/magazine\/1\/Big_Comic_Original"}]}'
