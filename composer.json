@@ -1,0 +1,8 @@
+{
+    "name": "jikan/jikanphp-fixtures",
+    "description": "Fixtures for tests",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
