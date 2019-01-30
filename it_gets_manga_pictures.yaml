@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/manga/1/pictures'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.1.26-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Wed, 30 Jan 2019 18:54:30 GMT'
+            Content-Type: application/json
+            Content-Length: '1272'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"629e7fb1b8fb4ad4608f7dd6d3f650b9"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:manga:e6c968ceb4cb761ea8adeb6205933700a6f22215","request_cached":false,"request_cache_expiry":43200,"pictures":[{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54525l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54525.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/2\/54527l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/2\/54527.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54529l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54529.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54535l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/54535.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/2\/54539l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/2\/54539.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/1\/132013l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/1\/132013.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/132015l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/3\/132015.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/manga\/5\/162486l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/manga\/5\/162486.jpg"}]}'

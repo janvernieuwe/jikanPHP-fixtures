@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/anime/1/pictures'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.1.26-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Wed, 30 Jan 2019 18:52:11 GMT'
+            Content-Type: application/json
+            Content-Length: '1707'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"d311adb5e8783130a322f2b19bc031c4"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:anime:e544a99147a1f350b780b689bcb37e51981fc024","request_cached":false,"request_cache_expiry":43200,"pictures":[{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/7\/3791l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/7\/3791.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/19609l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/19609.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/19644l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/19644.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/22882l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/4\/22882.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/22883l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/22883.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/22885l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/6\/22885.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/11\/53939l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/11\/53939.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/78836l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/2\/78836.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/81920l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/12\/81920.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/1635\/90587l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/1635\/90587.jpg"},{"large":"https:\/\/cdn.myanimelist.net\/images\/anime\/1519\/91488l.jpg","small":"https:\/\/cdn.myanimelist.net\/images\/anime\/1519\/91488.jpg"}]}'
