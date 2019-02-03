@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/club/21349'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 22:43:08 GMT'
+            Content-Type: application/json
+            Content-Length: '2616'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"9ccc1adba5fb026a94266e4489ad406f"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:club:8125649d53fbdaf2544100ad7f3caf02606e85a0","request_cached":false,"request_cache_expiry":43200,"mal_id":21349,"url":"https:\/\/myanimelist.net\/clubs.php?cid=21349","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/clubs\/16\/181830.jpg?s=16a1f7298d48c2ed54be17e3ab4c5fc3","title":"Holland''s Anime and Manga Club","members_count":2098,"pictures_count":24,"category":"Cities & Neighborhoods","created":"2010-05-10T00:00:00+00:00","type":"public","staff":[{"mal_id":0,"type":"profile","name":"Chou-chan","url":"https:\/\/myanimelist.net\/profile\/Chou-chan"},{"mal_id":0,"type":"profile","name":"dino-chan","url":"https:\/\/myanimelist.net\/profile\/dino-chan"},{"mal_id":0,"type":"profile","name":"Maru-tan","url":"https:\/\/myanimelist.net\/profile\/Maru-tan"},{"mal_id":0,"type":"profile","name":"morshuwarrior","url":"https:\/\/myanimelist.net\/profile\/morshuwarrior"},{"mal_id":0,"type":"profile","name":"NickV","url":"https:\/\/myanimelist.net\/profile\/NickV"},{"mal_id":0,"type":"profile","name":"PirateBunnii_exe","url":"https:\/\/myanimelist.net\/profile\/PirateBunnii_exe"},{"mal_id":0,"type":"profile","name":"Pysonics","url":"https:\/\/myanimelist.net\/profile\/Pysonics"},{"mal_id":0,"type":"profile","name":"sandshark","url":"https:\/\/myanimelist.net\/profile\/sandshark"},{"mal_id":0,"type":"profile","name":"Musical-Memoirs","url":"https:\/\/myanimelist.net\/profile\/Musical-Memoirs"},{"mal_id":0,"type":"profile","name":"stefannl","url":"https:\/\/myanimelist.net\/profile\/stefannl"},{"mal_id":0,"type":"profile","name":"Vikopaulum","url":"https:\/\/myanimelist.net\/profile\/Vikopaulum"}],"anime_relations":[{"mal_id":3829,"type":"anime","name":"Anne no Nikki","url":"https:\/\/myanimelist.net\/anime\/3829"},{"mal_id":2813,"type":"anime","name":"Chiisana Ahiru no Ooki na Ai no Monogatari: Ahiru no Kwak","url":"https:\/\/myanimelist.net\/anime\/2813"},{"mal_id":2814,"type":"anime","name":"Dondon Domeru to Ron","url":"https:\/\/myanimelist.net\/anime\/2814"},{"mal_id":2815,"type":"anime","name":"Geragera Boes Monogatari","url":"https:\/\/myanimelist.net\/anime\/2815"}],"manga_relations":[],"character_relations":[{"mal_id":33001,"type":"character","name":"Netherlands","url":"https:\/\/myanimelist.net\/character\/33001"},{"mal_id":19666,"type":"character","name":"Belgium","url":"https:\/\/myanimelist.net\/character\/19666"},{"mal_id":407,"type":"character","name":"Kitching, Isaac","url":"https:\/\/myanimelist.net\/character\/407"},{"mal_id":92369,"type":"character","name":"Shimotsuma, Sylvia","url":"https:\/\/myanimelist.net\/character\/92369"}]}'

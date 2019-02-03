@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/user/sandshark/history/anime'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 22:00:22 GMT'
+            Content-Type: application/json
+            Content-Length: '1793'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"5b1178fdec7a323aaf1e50cef9bba00b"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:user:96a12cf80ab74d34bf61c843f87ad4ac43e165eb","request_cached":false,"request_cache_expiry":300,"history":[{"meta":{"mal_id":37171,"type":"anime","name":"Asobi Asobase","url":"https:\/\/myanimelist.net\/anime\/37171"},"increment":1,"date":"2019-01-26T14:42:00+00:00"},{"meta":{"mal_id":16067,"type":"anime","name":"Nagi no Asu kara","url":"https:\/\/myanimelist.net\/anime\/16067"},"increment":3,"date":"2019-01-25T13:51:00+00:00"},{"meta":{"mal_id":16067,"type":"anime","name":"Nagi no Asu kara","url":"https:\/\/myanimelist.net\/anime\/16067"},"increment":2,"date":"2019-01-25T13:51:00+00:00"},{"meta":{"mal_id":16067,"type":"anime","name":"Nagi no Asu kara","url":"https:\/\/myanimelist.net\/anime\/16067"},"increment":1,"date":"2019-01-25T13:51:00+00:00"},{"meta":{"mal_id":30484,"type":"anime","name":"Steins;Gate 0","url":"https:\/\/myanimelist.net\/anime\/30484"},"increment":23,"date":"2019-01-23T11:18:00+00:00"},{"meta":{"mal_id":30484,"type":"anime","name":"Steins;Gate 0","url":"https:\/\/myanimelist.net\/anime\/30484"},"increment":12,"date":"2019-01-21T13:43:00+00:00"},{"meta":{"mal_id":30484,"type":"anime","name":"Steins;Gate 0","url":"https:\/\/myanimelist.net\/anime\/30484"},"increment":12,"date":"2019-01-21T13:43:00+00:00"},{"meta":{"mal_id":30484,"type":"anime","name":"Steins;Gate 0","url":"https:\/\/myanimelist.net\/anime\/30484"},"increment":5,"date":"2019-01-20T15:04:00+00:00"},{"meta":{"mal_id":36653,"type":"anime","name":"Tsurune: Kazemai Koukou Kyuudoubu","url":"https:\/\/myanimelist.net\/anime\/36653"},"increment":13,"date":"2019-01-20T12:11:00+00:00"},{"meta":{"mal_id":36873,"type":"anime","name":"Back Street Girls: Gokudolls","url":"https:\/\/myanimelist.net\/anime\/36873"},"increment":10,"date":"2019-01-16T14:46:00+00:00"}]}'

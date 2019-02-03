@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/anime/1/stats'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 21:35:23 GMT'
+            Content-Type: application/json
+            Content-Length: '609'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"34af06ce0fe03a6e26fefed3dada03f7"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:anime:540eaf4d6b4adb07ede46645b3a6ba4381f178b4","request_cached":false,"request_cache_expiry":43200,"watching":64442,"completed":481427,"on_hold":45550,"dropped":16833,"plan_to_watch":191112,"total":799364,"scores":{"10":{"votes":155951,"percentage":36.6},"9":{"votes":120321,"percentage":28.2},"8":{"votes":85217,"percentage":20},"7":{"votes":40349,"percentage":9.5},"6":{"votes":13564,"percentage":3.2},"5":{"votes":5969,"percentage":1.4},"4":{"votes":2243,"percentage":0.5},"3":{"votes":1025,"percentage":0.2},"2":{"votes":551,"percentage":0.1},"1":{"votes":799,"percentage":0.2}}}'

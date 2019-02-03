@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/manga/1/stats'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 21:36:39 GMT'
+            Content-Type: application/json
+            Content-Length: '588'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"bb0e3dbf5762e78c16167dc197d5255b"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:manga:1c1a305c62917974d4e638dda897238752000aad","request_cached":true,"request_cache_expiry":5424,"reading":10432,"completed":31651,"on_hold":3658,"dropped":1123,"plan_to_read":29422,"total":76286,"scores":{"10":{"votes":14512,"percentage":46.2},"9":{"votes":9353,"percentage":29.8},"8":{"votes":4705,"percentage":15},"7":{"votes":1787,"percentage":5.7},"6":{"votes":537,"percentage":1.7},"5":{"votes":249,"percentage":0.8},"4":{"votes":106,"percentage":0.3},"3":{"votes":43,"percentage":0.1},"2":{"votes":19,"percentage":0.1},"1":{"votes":104,"percentage":0.3}}}'

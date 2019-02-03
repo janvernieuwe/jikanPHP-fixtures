@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/anime/1/moreinfo'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 21:45:02 GMT'
+            Content-Type: application/json
+            Content-Length: '247'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"5f57ccab65eb2fdfc4062e434db0e180"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:anime:7bdf35a7e562441a522df7cb669a3f6ad8acc60d","request_cached":true,"request_cache_expiry":29671,"moreinfo":"Suggested Order of Viewing\r\n1. TV Series (26 episodes)\r\n2. Movie (takes place between episodes 22 and 23)"}'

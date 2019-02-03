@@ -1,0 +1,27 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/search/people?q=shinkai&show=1'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 21:05:57 GMT'
+            Content-Type: application/json
+            Content-Length: '2040'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"4b5f9b71ad14265c9925e4795b7f8c1b"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:search:2825de7b6952e3925445afc70be7a682a56d1844","request_cached":false,"request_cache_expiry":43200,"results":[{"mal_id":38465,"url":"https:\/\/myanimelist.net\/people\/38465\/Kouki_Shinkai","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Shinkai, Kouki","alternative_names":[]},{"mal_id":1117,"url":"https:\/\/myanimelist.net\/people\/1117\/Makoto_Shinkai","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/voiceactors\/1\/54688.jpg?s=0b3f20d13de6cfa0df0d5b6b1889c212","name":"Shinkai, Makoto","alternative_names":[]},{"mal_id":36827,"url":"https:\/\/myanimelist.net\/people\/36827\/Taro_Shinkai","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Shinkai, Taro","alternative_names":[]},{"mal_id":5343,"url":"https:\/\/myanimelist.net\/people\/5343\/Shinkai","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Shinkai","alternative_names":[]},{"mal_id":5176,"url":"https:\/\/myanimelist.net\/people\/5176\/Shinkai_Inoue","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Inoue, Shinkai","alternative_names":[]},{"mal_id":12346,"url":"https:\/\/myanimelist.net\/people\/12346\/Hideo_Shinkai","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Shinkai, Hideo","alternative_names":[]},{"mal_id":23067,"url":"https:\/\/myanimelist.net\/people\/23067\/Tetsuyarou_Shinkaida","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Shinkaida, Tetsuyarou","alternative_names":[]},{"mal_id":2181,"url":"https:\/\/myanimelist.net\/people\/2181\/Hisato_Fukaumi","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Fukaumi, Hisato","alternative_names":[]},{"mal_id":4170,"url":"https:\/\/myanimelist.net\/people\/4170\/Sakana_Fukami","image_url":"https:\/\/myanimelist.cdn-dena.com\/images\/questionmark_23.gif","name":"Fukami, Sakana","alternative_names":[]}],"last_page":1}'

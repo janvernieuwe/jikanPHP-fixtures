@@ -1,0 +1,53 @@
+
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/manga/1/moreinfo'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 21:49:43 GMT'
+            Content-Type: application/json
+            Content-Length: '141'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"267a433ac0eb71826e9e3fc678657e5f"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:manga:e8744c864b95a2b88eccb00848d85e162b1ed720","request_cached":false,"request_cache_expiry":43200,"moreinfo":null}'
+-
+    request:
+        method: GET
+        url: 'https://api.jikan.moe/v3/manga/2/moreinfo'
+        headers:
+            Host: api.jikan.moe
+            Accept-Encoding: null
+            User-Agent: 'GuzzleHttp/6.3.3 curl/7.47.0 PHP/7.2.14-1+ubuntu16.04.1+deb.sury.org+1'
+            Accept: null
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: 'nginx/1.15.5 (Ubuntu)'
+            Date: 'Sun, 03 Feb 2019 21:51:48 GMT'
+            Content-Type: application/json
+            Content-Length: '390'
+            Connection: keep-alive
+            Access-Control-Allow-Origin: '*'
+            Access-Control-Allow-Methods: '*'
+            Cache-Control: 'private, must-revalidate'
+            ETag: '"aa594075d885b26398cd6ea32d760177"'
+            Vary: Accept-Encoding
+        body: '{"request_hash":"request:manga:fdd2830b6c1bcb28248a9e7d6b2f4d87d2ea9d90","request_cached":false,"request_cache_expiry":43200,"moreinfo":"Berserk: The Prototype (1988)\r\nBefore Berserk became what it is now, Miura Kentaro created a prototype chapter for the manga. The year was 1988 and he was still a student at that time. This is the prototype manga on which the Berserk manga is based."}'
